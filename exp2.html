@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECE Lab</title>
     <style>
+      
         body{
             /* background-color: teal; */
             background: linear-gradient(130deg, pink, #ffd400);
-            background-repeat: no-repeat;
-        
-        }
+            
+         }
         header img{
             /* border: 2px solid red; */
             margin: -8px auto;
@@ -69,11 +69,40 @@
             color: wheat;
     
         }
-        .navbar1 li a:active{
-            color: yellow;
+        
+        .navbar2{
+            border: 1px solid white;
+            border-radius: 30px;
+            width: 1024px;
+            margin: 15px auto;
+            background: linear-gradient(185deg, #3b61ca, #2eeca5);
+            box-shadow: 3px 3px 11px #dae0e5;
+        }
+
+        .navbar2 ul{
+            list-style: none;
+            display: flex;
+            padding: 4px 0px;
+            margin: 10px 0px;
+        }
+
+        .navbar2 li{
+            padding: 0px 30px;
+        }
+        .navbar2 li a{
+            color: white;
+            font-size: large;
+        
+        }
+        .navbar2 li a:active{
+            color: black;
+            text-decoration: underline;
             
         }
-      
+        .navbar2 li a:hover{
+            color: wheat;
+        
+        }
         .heading2{
             display: flex;
             /* border: 1px solid yellow; */
@@ -83,7 +112,7 @@
             background-color: rgb(227 251 257);
             border-radius: 10px;
         }
-        
+       
         footer{
             /* background-color: black; */
             color: black;
@@ -100,7 +129,7 @@
             overflow: auto;
             margin: 30px auto;
             /* border:2px solid red; */
-            /* height: 800px; */
+            height: 900px;
         }
          
         
@@ -108,6 +137,7 @@
 </head>
 <body>
     <header class="header">
+
         <div>
             <img src="logo.png" alt="">
         </div>
@@ -119,13 +149,37 @@
                 <ul>
                     <li><a href="index2.html">Home</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="#">People</a></li>
+                    <li><a href="people.html">People</a></li>
                     <li><a href="link.html">Link</a></li>
                     <li><a href="#">Feedback</a></li>
                 </ul>
             </nav>
         </div>
-       
+        <div>
+            <nav class="navbar2">
+                <ul>
+                    <li>
+                        <a href="index2.html">INTRODUCTION</a>
+                    </li>
+                    <li>
+                        <a href="theory.html">THEORY</a>
+                    </li>
+                    <li>
+                        <a href="#">DEMO</a>
+                    </li>
+                    <li>
+                        <a href="#">DOWNLOAD</a>
+                    </li>
+                    <li>
+                        <a href="#">QUIZ</a>
+                    </li>
+                    <li>
+                        <a href="reference.html">REFERENCE</a>
+                    </li>
+                   
+                </ul>
+            </nav>
+         </div>
         
         <header class="heading2">
             <div class="page">
@@ -134,19 +188,15 @@
                 <div class="para">
                     <section style="display: block;">
                     <p  style="text-align:justify">
-                        <h1>
-                            YAHHAAAA TEAM MEMBERS LIKHNAAAA
-                        </h1>
-                       
-                    
+                       <h1>EXPERIMENT2</h1>
                     </p>
                     </section>
                     </div>
                 
-            </div>
+            
         </header>
         
-        
+       </div> 
     </header>
     <footer>
         <div class="foot">
